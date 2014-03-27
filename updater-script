@@ -22,7 +22,7 @@ ifelse(
     ui_print("Extracting existing boot.img...");
     run_program("/tmp/dd", "if=/dev/block/mmcblk0p19", "of=/tmp/boot.img");;
     ui_print("Replacing kernel in boot.img and setting ramdisk addr...");
-    run_program("/tmp/abootimg", "-u", "/tmp/boot.img", "-c", "ramdiskaddr=0x82000000", "-k", "/tmp/zImage");
+    run_program("/tmp/abootimg", "-u", "/tmp/boot.img", "-c", "ramdiskaddr=0x11000000", "-k", "/tmp/zImage");
 ));
 
 ui_print("Flashing boot.img");
