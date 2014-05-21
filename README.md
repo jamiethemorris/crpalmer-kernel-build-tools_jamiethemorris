@@ -8,9 +8,9 @@ example):
 
 CROSS_COMPILE=/home/jamiethemorris/android-toolchain-eabi/bin/arm-eabi-
 HOST_CC=gcc
-LOCAL_BUILD_DIR=dna
-TARGET_DIR=~/dna/updates
-SYSTEM_PARTITION="/dev/block/mmcblk0p32"
+LOCAL_BUILD_DIR=gs3
+TARGET_DIR=~/gs3/updates
+SYSTEM_PARTITION="/dev/block/mmcblk0p14"
 DEFCONFIG=jamiethemorris_defconfig
 FLASH_BOOT='write_raw_image("/tmp/boot.img", "boot")'
 
