@@ -1,4 +1,4 @@
-CROSS_COMPILE=/home/jamiethemorris/android-toolchain-eabi/bin/arm-eabi-
+CROSS_COMPILE=/home/jamiethemorris/android-toolchain-eabi-4.7/bin/arm-eabi-
 HOST_CC=gcc
 LOCAL_BUILD_DIR=gs3
 TARGET_DIR=~/gs3/updates
